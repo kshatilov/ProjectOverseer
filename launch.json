@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open test.html",
+            "file": "c:\\dev\\ProjectOverseer\\client\\test.html",
+            "runtimeArgs": ["--user-data-dir=C://dev/tmp", "--disable-web-security"]
+        }
+    ]
+}

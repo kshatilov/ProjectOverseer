@@ -1,5 +1,26 @@
 {
+  "type": "module",
   "dependencies": {
-    "express": "^4.18.1"
-  }
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "ws": "^8.8.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "wss": "node wsServer.js"
+  },
+  "name": "projectoverseer",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kshatilov/ProjectOverseer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kshatilov/ProjectOverseer/issues"
+  },
+  "homepage": "https://github.com/kshatilov/ProjectOverseer#readme"
 }
